@@ -10,7 +10,7 @@ const app = express();
 app.use(express.static("./build", { index: false }));
 
 app.get("/*", (req, res) => {
-  const reactApp = renderToString(<h1>Hello from the server</h1>);
+  const reactApp = renderToString(<Home />);
 
   return res.send(`
 		<html>
