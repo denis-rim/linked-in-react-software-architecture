@@ -8,7 +8,7 @@ const App = () => {
   return (
     // <CounterProvider>
     <RecoilRoot>
-      <DisplayCount />
+      {/*<DisplayCount />*/}
       <h1>State Management Example</h1>
       <CounterButton />
     </RecoilRoot>
